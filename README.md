@@ -40,6 +40,6 @@ Total of videos can be found in the pageInfo->totalResults variable.
 But beware of Google API quotas!
 https://developers.google.com/youtube/v3/getting-started#quota
 
-# automatic python magic
+## automatic python magic
 - get all videos from channel with [youtubeChannelVideosFinder](https://github.com/dsebastien/youtubeChannelVideosFinder) or [manually](https://stackoverflow.com/questions/18804904/retrieve-all-videos-from-youtube-playlist-using-youtube-v3-api)
 - download them all with [pafy](https://github.com/mps-youtube/pafy)
