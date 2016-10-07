@@ -43,3 +43,8 @@ https://developers.google.com/youtube/v3/getting-started#quota
 ## automatic python magic
 - get all videos from channel with [youtubeChannelVideosFinder](https://github.com/dsebastien/youtubeChannelVideosFinder) or [manually](https://stackoverflow.com/questions/18804904/retrieve-all-videos-from-youtube-playlist-using-youtube-v3-api)
 - download them all with [pafy](https://github.com/mps-youtube/pafy)
+
+- create cronjob running yCVF weekly with date parameters, writing
+  links and titles to file
+- read links and titles from file and display them in frontend
+- also add 'refresh' button to manually toggle yCVF
